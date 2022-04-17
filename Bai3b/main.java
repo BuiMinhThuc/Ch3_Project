@@ -1,11 +1,11 @@
 package Bai3b;
-import java.util.Scanner;
-import Bai3b.DIEM;
-import Bai3b.TAMGIAC;
-public class main {
-    public static void main(String[] args){
-    Scanner sc= new Scanner(System.in);
-    TAMGIAC a= new TAMGIAC();
-    a.nhapToado3dinh();
-    }    
+import Bai3b.Diem;
+import Bai3b.Tamgiac;
+import Bai3b.Duongtron;
+public class Main {
+    public static void main (String[] args){
+   Tamgiac a = new Tamgiac();
+   Duongtron t = new Duongtron();
+   t.in();
+    }
 }
